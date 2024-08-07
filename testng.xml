@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="All Test Suite" parallel="true">
+<suite name="All Test Suite" >
 
-    <test name="CHROME" parallel="methods">
-        <parameter name="browser" value="FIREFOX"/>
+    <test name="CHROME" >
+        <parameter name="browser" value="CHROME"/>
         <classes>
             <class name="testcases.MakeAppointmentTest"/>
+          <class name="downloadTestCases.DataTableDownloadTest"/>
         </classes>
     </test>
 
