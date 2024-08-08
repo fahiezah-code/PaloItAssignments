@@ -6,10 +6,10 @@ import downloadPage.DownloadFilesPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
+import readers.ContentReader;
 import readers.CsvContentReader;
 import readers.ExcelContentReader;
 import readers.PdfContentReader;
-import readers.ContentReader;
 
 import java.io.File;
 import java.io.IOException;

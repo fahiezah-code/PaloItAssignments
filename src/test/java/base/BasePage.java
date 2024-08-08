@@ -4,9 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.ConfigLoader;
 
-import javax.sound.sampled.Port;
 import java.time.Duration;
-import java.util.Properties;
 
 public class BasePage {
 
